@@ -1,0 +1,193 @@
+/* Navbar Container */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.nav-middle {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.nav-right {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Body Padding */
+.body {
+    padding-top: 60px;
+}
+
+/* Content Layout */
+.content {
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    align-items: center; /* Align image and text vertically */
+    justify-content: center; /* Center the content within the container */
+}
+
+/* Image Styling */
+.content-image {
+    flex: 2.5; /* Adjust the space taken by the image */
+    display: flex;
+    justify-content: flex-start;
+}
+
+.content-image img {
+    width: 150%; /* Full width for the image container */
+    max-width: 700px; /* Keep the image size large but not oversized */
+    height: auto;
+    border-radius: 30px;
+}
+
+/* Text Content */
+.content-text {
+    flex: 1.8; /* More space for the text compared to the image */
+    font-size: 20px; /* Slightly increase font size for better readability */
+    line-height: 1.9; /* More line height to improve readability */
+    text-align: justify;
+    color: #333; /* Use a more readable, darker color */
+}
+
+/* Heading Styling */
+.content-heading {
+    font-size: 40px; /* Increase font size for the heading */
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Description Text Styling */
+.content-description {
+    font-size: 18px; /* Uniform font size */
+    color: #dbd2d2; /* Better contrast for readability */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    max-width: 700px; /* Ensure content doesn't stretch too wide */
+    text-align: left; /* Align the text left for a neater look */
+    padding-right: 20px; /* Add padding to make content breathe */
+}
+/* Investment Options Section */
+.investment-options {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: left;
+}
+
+.section-heading {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+
+/* Each investment section */
+.investment-section {
+    margin-bottom: 40px;
+}
+
+.investment-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.investment-description {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+.investment-image {
+    width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Add some spacing */
+  }
+  
+
+.learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.learn-more:hover {
+    text-decoration: underline;
+}
+
+/* Styles for Chatbot Toggle Button */
+.chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #1E90FF;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .chatbot-button:hover {
+    background-color: #1C86EE;
+  }
+  
+  .chatbot-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Optional Chatbot Component Styling */
+  .chatbot {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: rgb(90, 192, 218);
+    overflow: hidden;
+    transition: opacity 0.3s ease;
+  }
+  

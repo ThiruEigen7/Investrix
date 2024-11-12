@@ -1,0 +1,14 @@
+.investment-options {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #007bff; /* Same color as the logo */
+}
+
+.investment-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.investment-link:hover {
+    text-decoration: underline;
+}
